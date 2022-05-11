@@ -1,0 +1,414 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+clang version 12.0.1 (https://github.com/regehr/llvm-project.git aea4dff581c3bd2eef95f32148fb58a77d271ade)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/ebdemir/uni/evaluating-superoptimizers/souper/third_party/llvm-Release-install/bin
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9b53d/fast && /usr/bin/make -f CMakeFiles/cmTC_9b53d.dir/build.make CMakeFiles/cmTC_9b53d.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b53d.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_9b53d.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc/malloc.h' file not found
+#include <malloc/malloc.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9b53d.dir/build.make:66: CMakeFiles/cmTC_9b53d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9b53d/fast] Error 2
+
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b51ec/fast && /usr/bin/make -f CMakeFiles/cmTC_b51ec.dir/build.make CMakeFiles/cmTC_b51ec.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b51ec.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_b51ec.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ndir.h' file not found
+#include <ndir.h>
+         ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b51ec.dir/build.make:66: CMakeFiles/cmTC_b51ec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b51ec/fast] Error 2
+
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7cbc9/fast && /usr/bin/make -f CMakeFiles/cmTC_7cbc9.dir/build.make CMakeFiles/cmTC_7cbc9.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cbc9.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_7cbc9.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/ndir.h' file not found
+#include <sys/ndir.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7cbc9.dir/build.make:66: CMakeFiles/cmTC_7cbc9.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7cbc9/fast] Error 2
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6eff/fast && /usr/bin/make -f CMakeFiles/cmTC_f6eff.dir/build.make CMakeFiles/cmTC_f6eff.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6eff.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_f6eff.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'valgrind/valgrind.h' file not found
+#include <valgrind/valgrind.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f6eff.dir/build.make:66: CMakeFiles/cmTC_f6eff.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f6eff/fast] Error 2
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a18f3/fast && /usr/bin/make -f CMakeFiles/cmTC_a18f3.dir/build.make CMakeFiles/cmTC_a18f3.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a18f3.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_a18f3.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'mach/mach.h' file not found
+#include <mach/mach.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a18f3.dir/build.make:66: CMakeFiles/cmTC_a18f3.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a18f3/fast] Error 2
+
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c542b/fast && /usr/bin/make -f CMakeFiles/cmTC_c542b.dir/build.make CMakeFiles/cmTC_c542b.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c542b.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_c542b.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'mach-o/dyld.h' file not found
+#include <mach-o/dyld.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c542b.dir/build.make:66: CMakeFiles/cmTC_c542b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c542b/fast] Error 2
+
+
+
+Determining if the include file histedit.h exists failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4908/fast && /usr/bin/make -f CMakeFiles/cmTC_b4908.dir/build.make CMakeFiles/cmTC_b4908.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4908.dir/CheckIncludeFile.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_b4908.dir/CheckIncludeFile.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'histedit.h' file not found
+#include <histedit.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b4908.dir/build.make:66: CMakeFiles/cmTC_b4908.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b4908/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1945a/fast && /usr/bin/make -f CMakeFiles/cmTC_1945a.dir/build.make CMakeFiles/cmTC_1945a.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1945a.dir/src.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1945a.dir/src.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1945a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1945a.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_1945a.dir/src.c.o  -o cmTC_1945a  -lm 
+/usr/bin/ld: CMakeFiles/cmTC_1945a.dir/src.c.o: in function `main':
+src.c:(.text+0x35): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3e): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x4b): undefined reference to `pthread_join'
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_1945a.dir/build.make:87: cmTC_1945a] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1945a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c394/fast && /usr/bin/make -f CMakeFiles/cmTC_3c394.dir/build.make CMakeFiles/cmTC_3c394.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c394.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3c394.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c394.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3c394.dir/CheckFunctionExists.c.o  -o cmTC_3c394  -lpthreads -lm 
+/usr/bin/ld: cannot find -lpthreads
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_3c394.dir/build.make:87: cmTC_3c394] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3c394/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the tinfo failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e90d5/fast && /usr/bin/make -f CMakeFiles/cmTC_e90d5.dir/build.make CMakeFiles/cmTC_e90d5.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e90d5.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_e90d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e90d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e90d5.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_e90d5.dir/CheckFunctionExists.c.o  -o cmTC_e90d5  -ltinfo -lm 
+/usr/bin/ld: cannot find -ltinfo
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_e90d5.dir/build.make:87: cmTC_e90d5] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e90d5/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the terminfo failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5bce1/fast && /usr/bin/make -f CMakeFiles/cmTC_5bce1.dir/build.make CMakeFiles/cmTC_5bce1.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bce1.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_5bce1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5bce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bce1.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_5bce1.dir/CheckFunctionExists.c.o  -o cmTC_5bce1  -lterminfo -lm 
+/usr/bin/ld: cannot find -lterminfo
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_5bce1.dir/build.make:87: cmTC_5bce1] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5bce1/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the curses failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f834a/fast && /usr/bin/make -f CMakeFiles/cmTC_f834a.dir/build.make CMakeFiles/cmTC_f834a.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f834a.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_f834a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f834a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f834a.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_f834a.dir/CheckFunctionExists.c.o  -o cmTC_f834a  -lcurses -lm 
+/usr/bin/ld: cannot find -lcurses
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_f834a.dir/build.make:87: cmTC_f834a] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f834a/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the ncurses failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_281a4/fast && /usr/bin/make -f CMakeFiles/cmTC_281a4.dir/build.make CMakeFiles/cmTC_281a4.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_281a4.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_281a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_281a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_281a4.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_281a4.dir/CheckFunctionExists.c.o  -o cmTC_281a4  -lncurses -lm 
+/usr/bin/ld: cannot find -lncurses
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_281a4.dir/build.make:87: cmTC_281a4] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_281a4/fast] Error 2
+
+
+
+Determining if the function setupterm exists in the ncursesw failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7c91/fast && /usr/bin/make -f CMakeFiles/cmTC_d7c91.dir/build.make CMakeFiles/cmTC_d7c91.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7c91.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_d7c91.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7c91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7c91.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_d7c91.dir/CheckFunctionExists.c.o  -o cmTC_d7c91  -lncursesw -lm 
+/usr/bin/ld: cannot find -lncursesw
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_d7c91.dir/build.make:87: cmTC_d7c91] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d7c91/fast] Error 2
+
+
+
+Determining if the function xar_open exists in the xar failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e244e/fast && /usr/bin/make -f CMakeFiles/cmTC_e244e.dir/build.make CMakeFiles/cmTC_e244e.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e244e.dir/CheckFunctionExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang   -DCHECK_FUNCTION_EXISTS=xar_open   -o CMakeFiles/cmTC_e244e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e244e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e244e.dir/link.txt --verbose=1
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang  -DCHECK_FUNCTION_EXISTS=xar_open    CMakeFiles/cmTC_e244e.dir/CheckFunctionExists.c.o  -o cmTC_e244e  -lxar -lm 
+/usr/bin/ld: cannot find -lxar
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_e244e.dir/build.make:87: cmTC_e244e] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e244e/fast] Error 2
+
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b98ad/fast && /usr/bin/make -f CMakeFiles/cmTC_b98ad.dir/build.make CMakeFiles/cmTC_b98ad.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b98ad.dir/CheckSymbolExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_b98ad.dir/CheckSymbolExists.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'arc4random'; did you mean 'srandom'?
+  return ((int*)(&arc4random))[argc];
+                  ^~~~~~~~~~
+                  srandom
+/usr/include/stdlib.h:404:13: note: 'srandom' declared here
+extern void srandom (unsigned int __seed) __THROW;
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b98ad.dir/build.make:66: CMakeFiles/cmTC_b98ad.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b98ad/fast] Error 2
+
+
+File /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallctl exist failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03f95/fast && /usr/bin/make -f CMakeFiles/cmTC_03f95.dir/build.make CMakeFiles/cmTC_03f95.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03f95.dir/CheckSymbolExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_03f95.dir/CheckSymbolExists.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc_np.h' file not found
+#include <malloc_np.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_03f95.dir/build.make:66: CMakeFiles/cmTC_03f95.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_03f95/fast] Error 2
+
+
+File /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79b8b/fast && /usr/bin/make -f CMakeFiles/cmTC_79b8b.dir/build.make CMakeFiles/cmTC_79b8b.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79b8b.dir/CheckSymbolExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_79b8b.dir/CheckSymbolExists.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc/malloc.h' file not found
+#include <malloc/malloc.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_79b8b.dir/build.make:66: CMakeFiles/cmTC_79b8b.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_79b8b/fast] Error 2
+
+
+File /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58609/fast && /usr/bin/make -f CMakeFiles/cmTC_58609.dir/build.make CMakeFiles/cmTC_58609.dir/build
+make[1]: Entering directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58609.dir/CheckSymbolExists.c.o
+/home/ebdemir/uni/evaluating-superoptimizers/souper/build/sclang    -o CMakeFiles/cmTC_58609.dir/CheckSymbolExists.c.o   -c /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'strerror_s'
+  return ((int*)(&strerror_s))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_58609.dir/build.make:66: CMakeFiles/cmTC_58609.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_58609/fast] Error 2
+
+
+File /home/ebdemir/uni/evaluating-superoptimizers/test/souper-clang-llvm/llvm-3.9.0.src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
